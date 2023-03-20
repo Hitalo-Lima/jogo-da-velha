@@ -1,4 +1,3 @@
-import "./assets/generic/reset.css"
 import "./App.css";
 
 
