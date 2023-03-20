@@ -1,25 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import "./assets/generic/reset.css"
+import "./App.css";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Na bruma leve das paixoes que vem de dentro
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <a href="#to-do" className="action">
+        Sobre
+      </a>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
