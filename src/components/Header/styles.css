@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}

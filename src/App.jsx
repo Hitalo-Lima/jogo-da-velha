@@ -1,10 +1,10 @@
-import Sobre from "./objects/Sobre";
+import Header from "./components/Header"
 
 function App() {
   return (
-    <div className="App">
-      <Sobre />
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 

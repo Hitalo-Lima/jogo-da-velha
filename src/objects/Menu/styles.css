@@ -1,0 +1,17 @@
+.menu, .menu::before, .menu::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-quaternary);
+  border-radius: 6px;
+  position: relative;
+}
+
+.menu::before {
+  top: -7px;
+}
+
+.menu::after {
+  top: 4px;
+}
