@@ -5,13 +5,11 @@ import "./styles.css"
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <Logo />
-      <div className="actions">
-        <Sobre />
-        <Menu />
-      </div>
-    </div>
+      <Sobre />
+      <Menu />
+    </header>
   )
 }
 

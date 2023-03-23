@@ -1,17 +1,17 @@
-.menu, .menu::before, .menu::after {
+.menu {
+  display: block;
+  text-indent: -9999px;
+}
+
+.menu::after, .menu::before, .menu > .center {
   content: '';
   display: block;
-  width: 25px;
-  height: 3px;
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
   background-color: var(--color-quaternary);
-  border-radius: 6px;
-  position: relative;
 }
 
-.menu::before {
-  top: -7px;
-}
-
-.menu::after {
-  top: 4px;
+.menu::before, .menu > .center{
+  margin-bottom: 5px;
 }
