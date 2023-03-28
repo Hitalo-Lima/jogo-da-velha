@@ -1,10 +1,9 @@
 import "./styles.css";
-// import Player from "../Player"
 
-const Card = () => {
+const Card = ({children}) => {
   return <article className="card">
-    {/* <Player /> */}
-   </article>
+    {children}
+  </article>
 }
 
 export default Card;
