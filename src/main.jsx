@@ -4,6 +4,7 @@ import App from "./App";
 import "./styles/settings/colors.css";
 import "./styles/settings/spacing.css";
 import "./styles/elements/base.css";
+import "./styles/generic/reset.css";
 import "normalize.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
