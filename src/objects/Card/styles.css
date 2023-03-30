@@ -1,6 +1,4 @@
 .card {
-  width: 320px;
-  height: 320px;
   background-color: var(--color-zero);
   border-radius: var(--spacing-radiuds);
   box-shadow: 0 3px 6px 0 var(--color-light-negative);
