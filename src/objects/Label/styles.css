@@ -3,3 +3,8 @@
   font-size: var(--size-small);
   font-weight: 700;
 }
+
+.label::selection {
+  background-color: var(--color-primary);
+  color: var(--color-zero);
+}

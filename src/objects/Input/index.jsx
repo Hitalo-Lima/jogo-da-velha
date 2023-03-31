@@ -4,8 +4,8 @@ import "./styles.css";
 const Input = () => {
   return (
     <form className="input">
-      <input type="checkbox" id="checkbox" value="show"/>
-      <Label content="Mostrar eventos"/>
+      <input type="checkbox" id="show" value="show"/>
+      <Label htmlFor="show" content="Mostrar eventos"/>
     </form>
   );
 };

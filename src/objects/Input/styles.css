@@ -2,7 +2,3 @@
   display: flex;
   gap: 6px;
 }
-
-.input input:checked{
-  background-color: red;
-}
