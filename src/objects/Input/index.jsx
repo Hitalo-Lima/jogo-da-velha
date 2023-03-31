@@ -1,10 +1,10 @@
 import Label from "../Label";
 import "./styles.css";
 
-const Input = () => {
+const Input = ({type = "text"}) => {
   return (
     <form className="input">
-      <input type="checkbox" id="show" value="show"/>
+      <input type={type} id="show" value="show"/>
       <Label htmlFor="show" content="Mostrar eventos"/>
     </form>
   );
