@@ -1,7 +1,7 @@
 const Input = ({ type = "text", id = "", value = "" }) => {
   return (
     <>
-      <input type={type} id={id} value={value} />
+      <input className="input" type={type} id={id} value={value} />
     </>
   );
 };
