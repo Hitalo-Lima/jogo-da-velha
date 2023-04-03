@@ -1,6 +1,7 @@
 import Hashtag from "./components/Hashtag";
 import Header from "./components/Header";
 import Input from "./objects/Input";
+import Checkbox from "./objects/Checkbox";  
 import "./App.css";
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
     <main className="app">
       <Header />
       <Hashtag />
-      <Input type="checkbox"/>
+      <Checkbox id="show" value="show" content="Mostrar eventos"/>
     </main>
   );
 };
