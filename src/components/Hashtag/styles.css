@@ -8,12 +8,36 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 3px;
-  grid-row-gap: 3px;
 }
 
 .hashtag li {
   background-color: var(--color-zero);
   display: flex;
   justify-content: center;
+}
+
+.hashtag > li:nth-child(2) {
+  justify-content: space-between;
+}
+
+.hashtag > li:nth-child(2)::before {
+  content: '';
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  border-top-left-radius: 1.5px;
+  border-top-right-radius: 1.5px;
+}
+
+.hashtag > li:nth-child(2)::after {
+  content: '';
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  border-top-left-radius: 1.5px;
+  border-top-right-radius: 1.5px;
+}
+
+.hashtag > li:nth-child(5) {
+  border: 3px solid red;
 }
